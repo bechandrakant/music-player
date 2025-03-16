@@ -1,0 +1,50 @@
+.music-player-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.progress-bar-container {
+  background-color: #ffffff4f;
+  height: 4px;
+  position: relative;
+}
+.progress-bar-container .progress-bar {
+  background-color: #fff;
+  height: 6px;
+}
+.progress-bar-container .progress-bar-circle {
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  border-radius: 16px;
+  z-index: 100;
+  background-color: white;
+  margin-top: -12px;
+  margin-left: -8px;
+}
+
+.music-player {
+  background-color: #181818;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #282828;
+  padding-right: 16px;
+}
+
+.music-player button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.music-player button:hover {
+  opacity: 0.7;
+}
