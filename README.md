@@ -1,5 +1,7 @@
 # Music Player
 
+Live: https://sage-pavlova-274269.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
