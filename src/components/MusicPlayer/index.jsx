@@ -17,10 +17,12 @@ const MusicPlayer = () => {
       <div className="progress-bar-container">
         <div
           className="progress-bar"
+          data-testid="progress-bar"
           style={{ color: "white", width: `${progress}%` }}
         ></div>
         <div
           className="progress-bar-circle"
+          data-testid="progress-bar-circle"
           style={{ color: "white", left: `${progress}%` }}
         ></div>
       </div>
